@@ -33,21 +33,18 @@ Two kinds of features (*i.e.*, Visual features and Audio features) are required 
 
 After downloading the features, please place them into the `data` folder. The structure of the `data` folder is shown as follows:
 ```
-.
+data
 ├── audio_feature.h5
 ├── audio_feature_noisy.h5
-├── labels_closs.h5
 ├── labels.h5
 ├── labels_noisy.h5
 ├── mil_labels.h5
 ├── test_order.h5
-├── test_order_match.h5
 ├── train_order.h5
-├── train_order_match.h5
 ├── val_order.h5
-├── val_order_match.h5
 ├── visual_feature.h5
 └── visual_feature_noisy.h5
+
 ```
 
 
