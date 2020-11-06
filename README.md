@@ -19,7 +19,7 @@ pip install -r requirements.txt
  
 ## Code and Data Preparation
 
-We highly appreciate [@YapengTian][YAPENG] for the shared features. We directly use the features for experiments.
+We highly appreciate [@YapengTian][YAPENG] for the shared features and code. 
 
 ### Download Features
 
@@ -56,7 +56,7 @@ You can download the AVE dataset from the repo [here][AVE_dataset].
 ## Training and testing CMRAN *in a fully-supervised setting*
 
 You can run the following command for training and testing the model.
-We evaluate the model on the test set *every epoch* (set by the arg `"eval_freq"` in the `configs/default_config.yaml` file.) when training.
+We evaluate the model on the test set *every epoch* (set by the arg `"eval_freq"` in the `configs/default_config.yaml` file) when training.
 ```bash
 bash supv_train.sh
 # The argument "--snapshot_pref" denotes the path for saving checkpoints and code.
